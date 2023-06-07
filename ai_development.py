@@ -25,7 +25,7 @@ class SimpleChatBot:
         return self.data.iat[0,1]   #레벤슈타인 거리가 최소인 행의 답 문장 리턴
         
 # CSV 파일 경로를 지정하세요.
-filepath = 'assessment/ChatbotData.csv'
+filepath = 'ChatbotData.csv'
 
 # 간단한 챗봇 인스턴스를 생성합니다.
 chatbot = SimpleChatBot(filepath)
